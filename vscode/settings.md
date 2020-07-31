@@ -118,6 +118,15 @@ Register language types with Prettier
     }
 ```
 
+Formatting rules applicable across projects
+
+```json
+    "prettier.useTabs": true,
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": true,
+    "prettier.quoteProps": "consistent",
+```
+
 > Formatting HTML Files
 
 I use *VSCode Native Formatter* based on [js-beautify](https://www.npmjs.com/package/js-beautify) for formatting html files.
