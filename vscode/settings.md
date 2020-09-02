@@ -5,6 +5,7 @@
 ---
 
 ```json
+    "editor.formatOnSave": true,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "workbench.editor.enablePreview": false,
     "workbench.startupEditor": "newUntitledFile",
@@ -26,6 +27,7 @@
 ```json
     "files.eol": "\n",
     "git.suggestSmartCommit": false,
+    "git.autofetch": true,
     "javascript.updateImportsOnFileMove.enabled": "never",
     "diffEditor.ignoreTrimWhitespace": false,
     "window.zoomLevel": 0
@@ -37,7 +39,7 @@
 
 ### Peacock
 
-``` json
+```json
     "peacock.favoriteColors": [
         {
             "name": "Angular Red",
@@ -129,7 +131,7 @@ Formatting rules applicable across projects
 
 > Formatting HTML Files
 
-I use *VSCode Native Formatter* based on [js-beautify](https://www.npmjs.com/package/js-beautify) for formatting html files.
+I use _VSCode Native Formatter_ based on [js-beautify](https://www.npmjs.com/package/js-beautify) for formatting html files.
 
 Corresponding settings are as follows:
 
@@ -142,4 +144,19 @@ Corresponding settings are as follows:
     "html.format.maxPreserveNewLines": 1,
     "html.format.wrapAttributes": "aligned-multiple",
     "html.format.endWithNewline": true
- ```
+```
+
+### Python
+
+```json
+    "python.languageServer": "Microsoft",
+    "python.showStartPage": false,
+    "python.formatting.provider": "black",
+    "python.testing.pytestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.unittestEnabled": true,
+    "python.pythonPath": "<path to python interpreter>",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    }
+```
