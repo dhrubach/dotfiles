@@ -6,6 +6,9 @@
 
 ```json
     "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modifications",
+    "editor.renameOnType": true,
+    "editor.find.cursorMoveOnType": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "workbench.editor.enablePreview": false,
     "workbench.startupEditor": "newUntitledFile",
