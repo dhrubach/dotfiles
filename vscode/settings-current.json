@@ -1,0 +1,140 @@
+// Place your settings in this file to overwrite the default settings
+{
+	"editor.fontFamily": "Fira Code",
+	"editor.fontSize": 13,
+	"editor.fontLigatures": true,
+	"editor.fontWeight": "400",
+	"editor.lineHeight": 25,
+	"editor.letterSpacing": 0.5,
+	"editor.cursorStyle": "line",
+	"editor.cursorWidth": 5,
+	"editor.cursorBlinking": "solid",
+	"editor.formatOnSave": true,
+	"editor.renameOnType": true,
+	"editor.find.cursorMoveOnType": false,
+
+	"terminal.integrated.copyOnSelection": true,
+	"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+
+	"csscomb.preset": "~\\.csscomb.json",
+	"csscomb.formatOnSave": false,
+
+	"peacock.favoriteColors": [
+		{
+			"name": "Angular Red",
+			"value": "#b52e31"
+		},
+		{
+			"name": "Auth0 Orange",
+			"value": "#eb5424"
+		},
+		{
+			"name": "Azure Blue",
+			"value": "#007fff"
+		},
+		{
+			"name": "C# Purple",
+			"value": "#68217A"
+		},
+		{
+			"name": "Gatsby Purple",
+			"value": "#639"
+		},
+		{
+			"name": "Go Cyan",
+			"value": "#5dc9e2"
+		},
+		{
+			"name": "Java Blue-Gray",
+			"value": "#557c9b"
+		},
+		{
+			"name": "JavaScript Yellow",
+			"value": "#f9e64f"
+		},
+		{
+			"name": "Mandalorian Blue",
+			"value": "#1857a4"
+		},
+		{
+			"name": "Node Green",
+			"value": "#215732"
+		},
+		{
+			"name": "React Blue",
+			"value": "#00b3e6"
+		},
+		{
+			"name": "Something Different",
+			"value": "#832561"
+		},
+		{
+			"name": "Vue Green",
+			"value": "#42b883"
+		}
+	],
+	"peacock.affectAccentBorders": true,
+	"peacock.surpriseMeFromFavoritesOnly": true,
+
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[markdown]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"html.format.indentHandlebars": true,
+	"html.format.indentInnerHtml": true,
+	"html.format.maxPreserveNewLines": 1,
+	"html.format.wrapAttributes": "aligned-multiple",
+	"html.format.endWithNewline": true,
+
+	"prettier.useTabs": true,
+	"prettier.tabWidth": 4,
+	"prettier.singleQuote": true,
+	"prettier.quoteProps": "consistent",
+
+	"liveServer.settings.donotShowInfoMsg": true,
+
+	"python.autoComplete.addBrackets": true,
+	"python.dataScience.sendSelectionToInteractiveWindow": false,
+	"python.formatting.provider": "black",
+	"python.linting.flake8Enabled": true,
+	"python.pythonPath": "G:\\Anaconda3\\python.exe",
+	"python.showStartPage": false,
+	"python.testing.unittestArgs": ["-v", "-p", "*_test.py"],
+	"python.testing.pytestEnabled": true,
+	"python.testing.nosetestsEnabled": false,
+	"python.testing.unittestEnabled": false,
+	"python.testing.pytestArgs": ["."],
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.python"
+	},
+
+	"workbench.colorTheme": "Horizon Bold",
+	"workbench.iconTheme": "city-lights-icons-vsc",
+	"workbench.editor.enablePreview": false,
+	"workbench.editor.enablePreviewFromQuickOpen": false,
+	"workbench.startupEditor": "newUntitledFile",
+	"workbench.activityBar.visible": true,
+	"workbench.statusBar.visible": true,
+
+	"files.eol": "\n",
+	"git.suggestSmartCommit": false,
+	"git.autofetch": true,
+	"scm.alwaysShowRepositories": true,
+	"javascript.updateImportsOnFileMove.enabled": "never",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"window.zoomLevel": 0
+}
