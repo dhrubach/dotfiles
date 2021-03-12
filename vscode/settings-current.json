@@ -107,6 +107,41 @@
 
 	"liveServer.settings.donotShowInfoMsg": true,
 
+	"better-comments.tags": [
+		{
+			"tag": "!",
+			"color": "#FF2D00",
+			"strikethrough": false,
+			"backgroundColor": "transparent"
+		},
+		{
+			"tag": "?",
+			"color": "#3498DB",
+			"strikethrough": false,
+			"backgroundColor": "transparent"
+		},
+		{
+			"tag": "//",
+			"color": "#474747",
+			"strikethrough": true,
+			"backgroundColor": "transparent"
+		},
+		{
+			"tag": "todo",
+			"color": "#FF8C00",
+			"strikethrough": false,
+			"backgroundColor": "transparent"
+		},
+		{
+			"tag": "*",
+			"color": "#98C379",
+			"strikethrough": false,
+			"backgroundColor": "transparent"
+		}
+	],
+	"better-comments.multilineComments": true,
+	"better-comments.highlightPlainText": true,
+	
 	"python.autoComplete.addBrackets": true,
 	"python.dataScience.sendSelectionToInteractiveWindow": false,
 	"python.formatting.provider": "black",
@@ -124,6 +159,8 @@
 
 	"workbench.colorTheme": "Horizon Bold",
 	"workbench.iconTheme": "city-lights-icons-vsc",
+	"workbench.editor.decorations.colors": true,
+	"workbench.editor.decorations.badges": true,
 	"workbench.editor.enablePreview": false,
 	"workbench.editor.enablePreviewFromQuickOpen": false,
 	"workbench.startupEditor": "newUntitledFile",
@@ -134,7 +171,12 @@
 	"git.suggestSmartCommit": false,
 	"git.autofetch": true,
 	"scm.alwaysShowRepositories": true,
+	
 	"javascript.updateImportsOnFileMove.enabled": "never",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"angular.enable-experimental-ivy-prompt": false,
+
+	"explorer.confirmDragAndDrop": false,
 	"diffEditor.ignoreTrimWhitespace": false,
 	"window.zoomLevel": 0
 }
