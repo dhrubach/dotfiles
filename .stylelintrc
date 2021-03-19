@@ -1,9 +1,19 @@
 {
-	extends: "stylelint-prettier/recommended",
+	extends: ["stylelint-prettier/recommended", "stylelint-config-sass-guidelines"],
 	rules: {
 		"declaration-no-important": true,
 		"declaration-empty-line-before": null,
-		"indentation": "tab",
-		"at-rule-no-unknown": null
+		"at-rule-no-unknown": null,
+    "max-nesting-depth": [
+      3,
+      {
+        "ignoreAtRules": [
+          "each",
+          "media",
+          "supports",
+          "include"
+        ]
+      }
+    ]
 	}
 }
