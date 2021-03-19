@@ -6,9 +6,10 @@
 
 ```json
     "editor.formatOnSave": true,
-    "editor.formatOnSaveMode": "modifications",
-    "editor.renameOnType": true,
+    "editor.formatOnSaveMode": "file",
     "editor.find.cursorMoveOnType": false,
+    "workbench.editor.decorations.colors": true,
+    "workbench.editor.decorations.badges": true,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "workbench.editor.enablePreview": false,
     "workbench.startupEditor": "newUntitledFile",
@@ -31,9 +32,12 @@
     "files.eol": "\n",
     "git.suggestSmartCommit": false,
     "git.autofetch": true,
+    "scm.alwaysShowRepositories": true,
     "javascript.updateImportsOnFileMove.enabled": "never",
+    "typescript.updateImportsOnFileMove.enabled": "always",
     "diffEditor.ignoreTrimWhitespace": false,
-    "window.zoomLevel": 0
+    "window.zoomLevel": 0,
+    "explorer.confirmDragAndDrop": false
 ```
 
 ## Extensions
@@ -152,14 +156,55 @@ Corresponding settings are as follows:
 ### Python
 
 ```json
-    "python.languageServer": "Microsoft",
+    "python.languageServer": "Pylance",
     "python.showStartPage": false,
     "python.formatting.provider": "black",
-    "python.testing.pytestEnabled": false,
+    "python.testing.pytestEnabled": true,
     "python.testing.nosetestsEnabled": false,
     "python.testing.unittestEnabled": true,
+    "python.testing.pytestArgs": ["."],
     "python.pythonPath": "<path to python interpreter>",
     "[python]": {
         "editor.defaultFormatter": "ms-python.python"
-    }
+    },
+    "python.linting.flake8Enabled": true,
+```
+
+### Better Comments
+
+```json
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        }
+    ],
+    "better-comments.multilineComments": true,
+    "better-comments.highlightPlainText": true,
 ```
