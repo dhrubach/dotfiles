@@ -12,9 +12,26 @@
 	"editor.formatOnSave": true,
 	"editor.renameOnType": true,
 	"editor.find.cursorMoveOnType": false,
-
+	"editor.linkedEditing": true,
+	"editor.suggest.localityBonus": true,
+	
 	"terminal.integrated.copyOnSelection": true,
-	"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+	"terminal.integrated.profiles.windows": {
+		"PowerShell": null,
+		"Command Prompt": {
+			"path": [
+				"${env:windir}\\Sysnative\\cmd.exe",
+				"${env:windir}\\System32\\cmd.exe"
+			],
+			"args": [],
+			"icon": "terminal-cmd"
+		},
+		"Git Bash": {
+			"path": "D:\\software\\git\\Git\\bin\\bash.exe"
+		}
+	},
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+
 
 	"csscomb.preset": "~\\.csscomb.json",
 	"csscomb.formatOnSave": false,
@@ -99,7 +116,9 @@
 	"html.format.maxPreserveNewLines": 1,
 	"html.format.wrapAttributes": "aligned-multiple",
 	"html.format.endWithNewline": true,
-
+	
+	"markdownlint.run": "onSave",
+	
 	"prettier.useTabs": true,
 	"prettier.tabWidth": 4,
 	"prettier.singleQuote": true,
@@ -174,9 +193,8 @@
 	
 	"javascript.updateImportsOnFileMove.enabled": "never",
 	"typescript.updateImportsOnFileMove.enabled": "always",
-	"angular.enable-experimental-ivy-prompt": false,
-
+	
 	"explorer.confirmDragAndDrop": false,
 	"diffEditor.ignoreTrimWhitespace": false,
-	"window.zoomLevel": 0
+	"files.autoSaveDelay": 1000
 }
