@@ -1,39 +1,38 @@
-// Place your key bindings in this file to overwrite the defaults
 [
-    {
-        "key": "ctrl+t",
-        "command": "workbench.action.terminal.focus"
-    },
-    {
-        "key": "ctrl+t ctrl+1",
-        "command": "workbench.action.terminal.focusAtIndex1"
-    },
-    {
-        "key": "ctrl+t ctrl+2",
-        "command": "workbench.action.terminal.focusAtIndex2"
-    },
-    {
-        "key": "ctrl+t ctrl+]",
-        "command": "workbench.action.terminal.focusNext"
-    },
-    {
-        "key": "ctrl+t ctrl+[",
-        "command": "workbench.action.terminal.focusPrevious"
-    },
-    {
-        "key": "ctrl+k ctrl+l",
-        "command": "workbench.files.action.focusFilesExplorer"
-    },
-    {
-        "key": "ctrl+alt+n",
-        "command": "explorer.newFile"
-    },
-    {
-        "key": "shift+alt+h",
-        "command": "csscomb.execute"
-    },
-    {
-        "key": "ctrl+n ctrl+m",
-        "command": "workbench.files.action.collapseExplorerFolders"
-    }
+	{
+		"key": "ctrl+t",
+		"command": "workbench.action.terminal.focus"
+	},
+	{
+		"key": "ctrl+t ctrl+1",
+		"command": "workbench.action.terminal.focusAtIndex1"
+	},
+	{
+		"key": "ctrl+t ctrl+2",
+		"command": "workbench.action.terminal.focusAtIndex2"
+	},
+	{
+		"key": "ctrl+t ctrl+]",
+		"command": "workbench.action.terminal.focusNext"
+	},
+	{
+		"key": "ctrl+t ctrl+[",
+		"command": "workbench.action.terminal.focusPrevious"
+	},
+	{
+		"key": "ctrl+k ctrl+l",
+		"command": "workbench.files.action.focusFilesExplorer"
+	},
+	{
+		"key": "ctrl+alt+n",
+		"command": "explorer.newFile"
+	},
+	{
+		"key": "shift+alt+h",
+		"command": "csscomb.execute"
+	},
+	{
+		"key": "ctrl+n ctrl+m",
+		"command": "workbench.files.action.collapseExplorerFolders"
+	}
 ]

@@ -1,4 +1,3 @@
-// Place your settings in this file to overwrite the default settings
 {
 	"editor.fontFamily": "Fira Code",
 	"editor.fontSize": 13,
@@ -10,11 +9,10 @@
 	"editor.cursorWidth": 5,
 	"editor.cursorBlinking": "solid",
 	"editor.formatOnSave": true,
-	"editor.renameOnType": true,
-	"editor.find.cursorMoveOnType": false,
 	"editor.linkedEditing": true,
+	"editor.find.cursorMoveOnType": false,
 	"editor.suggest.localityBonus": true,
-	
+
 	"terminal.integrated.copyOnSelection": true,
 	"terminal.integrated.profiles.windows": {
 		"PowerShell": null,
@@ -27,11 +25,11 @@
 			"icon": "terminal-cmd"
 		},
 		"Git Bash": {
-			"path": "D:\\software\\git\\Git\\bin\\bash.exe"
+			"source": "Git Bash"
 		}
 	},
 	"terminal.integrated.defaultProfile.windows": "Git Bash",
-
+	"terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
 
 	"csscomb.preset": "~\\.csscomb.json",
 	"csscomb.formatOnSave": false,
@@ -99,10 +97,16 @@
 	"[typescript]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
 	"[jsonc]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascriptreact]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[markdown]": {
@@ -116,9 +120,9 @@
 	"html.format.maxPreserveNewLines": 1,
 	"html.format.wrapAttributes": "aligned-multiple",
 	"html.format.endWithNewline": true,
-	
+
 	"markdownlint.run": "onSave",
-	
+
 	"prettier.useTabs": true,
 	"prettier.tabWidth": 4,
 	"prettier.singleQuote": true,
@@ -160,7 +164,7 @@
 	],
 	"better-comments.multilineComments": true,
 	"better-comments.highlightPlainText": true,
-	
+
 	"python.autoComplete.addBrackets": true,
 	"python.dataScience.sendSelectionToInteractiveWindow": false,
 	"python.formatting.provider": "black",
@@ -190,10 +194,10 @@
 	"git.suggestSmartCommit": false,
 	"git.autofetch": true,
 	"scm.alwaysShowRepositories": true,
-	
+
 	"javascript.updateImportsOnFileMove.enabled": "never",
 	"typescript.updateImportsOnFileMove.enabled": "always",
-	
+
 	"explorer.confirmDragAndDrop": false,
 	"diffEditor.ignoreTrimWhitespace": false,
 	"files.autoSaveDelay": 1000
