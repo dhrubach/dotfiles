@@ -20,8 +20,25 @@
 ---
 
 ```json
-    "terminal.integrated.copyOnSelection": true,
-    "terminal.integrated.shell.windows": "<path to Git Bash exe>",
+ "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+        "source": "PowerShell",
+        "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+        "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+    ],
+        "args": [],
+        "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+        "source": "Git Bash"
+    }
+ },
+ "terminal.integrated.defaultProfile.windows": "Git Bash",
+ "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
 ```
 
 ## Misc IDE Settings
