@@ -180,18 +180,21 @@ Corresponding settings are as follows:
 ### Python
 
 ```json
-    "python.languageServer": "Pylance",
-    "python.showStartPage": false,
+    "python.analysis.completeFunctionParens": true,
+    "python.defaultInterpreterPath": "<path to python interpreter>",
+    "python.autoComplete.addBrackets": true,
     "python.formatting.provider": "black",
+    "python.linting.flake8Enabled": true,
+    "python.pythonPath": "<path to python interpreter>",
+    "python.showStartPage": false,
+    "python.testing.unittestArgs": ["-v", "-p", "*_test.py"],
     "python.testing.pytestEnabled": true,
     "python.testing.nosetestsEnabled": false,
-    "python.testing.unittestEnabled": true,
+    "python.testing.unittestEnabled": false,
     "python.testing.pytestArgs": ["."],
-    "python.pythonPath": "<path to python interpreter>",
     "[python]": {
         "editor.defaultFormatter": "ms-python.python"
-    },
-    "python.linting.flake8Enabled": true,
+    }
 ```
 
 ### Better Comments
